@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularInputOutPutAndHooksSample';
+  size!:string;
+  show:boolean = true;
+
+  onClick(){
+    alert('button1 click');
+  }
+
+  onSizeChanged(event:any){
+    // console.log('event',event)
+  }
 }
